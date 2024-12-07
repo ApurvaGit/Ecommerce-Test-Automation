@@ -29,10 +29,10 @@ public final class HomePage extends BrowserUtility {
         goToWebsite(JSONUtility.readJSON(QA).getUrl());
     }
 
-    public LogInPage goToLoginPage(){
+    public LoginPage goToLoginPage(){
         logger.info("Performing Login on Login Page");
         clickOn(signInLocator);
-        LogInPage logInPage = new LogInPage(getDriver());
+        LoginPage logInPage = new LoginPage(getDriver());
         return logInPage;
     }
 }

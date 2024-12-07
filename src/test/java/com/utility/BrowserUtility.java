@@ -105,19 +105,27 @@ public abstract class BrowserUtility {
         return element.getText();
     }
 
+    public String getVisibleText(By locator){
+        logger.info("Finding element with the locator"+ locator);
+
+        WebElement element = driver.get().findElement(locator);
+        logger.info("Element found and returning the visible text "+ element.getText());
+        return element.getText();
+    }
+
     public String takeScreenShot(String name) {
-        TakesScreenshot screenshot = (TakesScreenshot) driver;
+        TakesScreenshot screenshot = (TakesScreenshot) driver.get();
         File screenshotData = screenshot.getScreenshotAs(OutputType.FILE);
         Date date = new Date();
         SimpleDateFormat format = new SimpleDateFormat("HH-mm-ss");
         String timestamp = format.format(date);
-        String path = System.getProperty("user.dir") + "\\screenshots\\" + name + " - " + timestamp + ".png";
-
+        //String path = System.getProperty("user.dir") + "//screenshots//" + name + " - " + timestamp + ".png";
+        String path = System.getProperty("./screenshots/" + name + " - " + timestamp + ".png");
         File screenshotfile = new File(path);
         try {
             FileUtils.copyFile(screenshotData, screenshotfile);
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
         return path;
     }

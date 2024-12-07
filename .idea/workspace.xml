@@ -6,6 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="954858bf-95ba-487d-8e58-2ea69ce5de18" name="Changes" comment="Created v1.0 automation framework&#10;parameterize test, can execute from mvn cmd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/tests/LoginTestOld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/tests/LoginTestOld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/utility/BrowserUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utility/BrowserUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/utility/JSONUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utility/JSONUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/utility/PropertiesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utility/PropertiesUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +29,27 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <branch-grouping />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ApurvaGit&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ApurvaGit/Ecommerce-Test-Automation.git&quot;,
+    &quot;accountId&quot;: &quot;881bd8b3-75ce-43e3-b223-159788c30030&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
@@ -63,20 +89,20 @@
     "TestNG.LoginTest.loginCSVTest.executor": "Run",
     "TestNG.LoginTest.loginExcelTest.executor": "Debug",
     "TestNG.LoginTest.loginTest (1).executor": "Debug",
-    "TestNG.LoginTest.loginTest.executor": "Debug",
+    "TestNG.LoginTest.loginTest.executor": "Run",
     "TestNG.LoginTest1.executor": "Run",
     "TestNG.LoginTest1.loginTest.executor": "Run",
     "TestNG.LoginTestUsingCSV.executor": "Run",
     "TestNG.LoginTestUsingCSV.loginCSVTest.executor": "Run",
     "TestNG.LoginTestUsingCSV.loginExcelTest.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Workspace/Apurva/Learning Java/RestAssured/.gitignore",
     "onboarding.tips.debug.path": "C:/Workspace/Apurva/Learning Java/automate_ecommerce/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "terminal",
     "two.files.diff.last.used.folder": "C:/Workspace/Apurva/Learning Java/automate_ecommerce/target/generated-sources"
   }
 }]]></component>
@@ -100,7 +126,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.loginCSVTest">
+  <component name="RunManager" selected="TestNG.LoginTest.loginTest">
     <configuration name="C:/Workspace/Apurva/Learning Java/automate_ecommerce/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automate_ecommerce" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -146,24 +172,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTestUsingCSV.loginExcelTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automate_ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ui.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ui.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.ui.tests.LoginTestUsingCSV" />
-      <option name="METHOD_NAME" value="loginExcelTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LoginTest.loginCSVTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automate_ecommerce" />
       <extension name="coverage">
@@ -182,20 +190,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automate_ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ui.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ui.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.ui.tests.LoginTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="TestNG.LoginTest.loginTest" />
       <item itemvalue="TestNG.C:/Workspace/Apurva/Learning Java/automate_ecommerce/testng.xml" />
       <item itemvalue="TestNG.LoginTest" />
       <item itemvalue="TestNG.LoginTest.loginCSVTest" />
       <item itemvalue="TestNG.LoginTestUsingCSV.loginCSVTest" />
-      <item itemvalue="TestNG.LoginTestUsingCSV.loginExcelTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.loginTest" />
         <item itemvalue="TestNG.LoginTest.loginCSVTest" />
         <item itemvalue="TestNG.C:/Workspace/Apurva/Learning Java/automate_ecommerce/testng.xml" />
         <item itemvalue="TestNG.LoginTestUsingCSV.loginCSVTest" />
         <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.LoginTestUsingCSV.loginExcelTest" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733439514885</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created v1.0 automation framework&#10;parameterize test, can execute from mvn cmd">
+      <option name="closed" value="true" />
+      <created>1733441683768</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733441683768</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -239,6 +273,11 @@
                   </entry>
                 </map>
               </option>
+              <option name="HIGHLIGHTERS">
+                <map>
+                  <entry key="MY_COMMITS" value="true" />
+                </map>
+              </option>
             </State>
           </value>
         </entry>
@@ -258,8 +297,8 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/ui/pages/LogInPage.java</url>
-          <line>16</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/ui/pages/LoginPage.java</url>
+          <line>17</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -273,29 +312,14 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/utility/JSONUtility.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/ui/pages/MyAccountPage.java</url>
           <line>14</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/utility/JSONUtility.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/ui/pages/HomePage.java</url>
           <line>17</line>
           <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/utility/JSONUtility.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/ui/pojo/User.java</url>
@@ -310,15 +334,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/com/utility/JSONUtility.java</url>
-          <line>13</line>
-          <properties class="com.utility.JSONUtility" method="readJSON">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/ui/tests/LoginTestUsingCSV.java</url>

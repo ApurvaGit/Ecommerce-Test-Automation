@@ -13,12 +13,13 @@ import java.io.FileReader;
 public class JSONUtility {
     public static Environment readJSON(Env env) {
         Gson gson = new Gson();
-        File jsonFile = new File(System.getProperty("user.dir") + "\\src\\config\\" + "config.json");
+       // File jsonFile = new File(System.getProperty("user.dir") + "//src//config//" + "config.json");
+        File jsonFile = new File( "./src//config//" + "config.json");
         FileReader fileReader = null;
         try {
             fileReader = new FileReader(jsonFile);
         } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
         Config config = gson.fromJson(fileReader, Config.class);
         Environment environment = config.getEnvironments().get("QA");

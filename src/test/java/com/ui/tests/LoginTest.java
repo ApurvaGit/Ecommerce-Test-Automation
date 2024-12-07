@@ -19,6 +19,8 @@ public class LoginTest extends TestBase{
 
   //  HomePage homePage;
     Logger logger = LoggerUtility.getLogger(this.getClass());
+    private static final String INVALID_EMAIL_ADDRESS = "abcd@email.com";
+    private static final String INVALID_EMAIL_PASSWORD = "abcd";
 
 /*    @BeforeMethod
     public void setUp() {
@@ -33,15 +35,15 @@ public class LoginTest extends TestBase{
         assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName(),"Test App");
         }*/
 
-    @Test(description = "Verify valid user is login into the application", groups = {"regression", "sanity"},
-            dataProviderClass = com.ui.dataprovider.LoginDataProvider.class, dataProvider = "loginTestCSVDataProvider")
-    public void loginCSVTest(User user) {
-        //Read Data from CSV file
-       /* homePage.goToLoginPage()
-                .doLoginWith(user.getEmailAddress(), user.getPassword())
-                .getUserName();*/
-        assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName(), "Test App");
-        }
+/*@Test(description = "Verify valid user is login into the application", groups = {"regression", "sanity"},
+        dataProviderClass = com.ui.dataprovider.LoginDataProvider.class, dataProvider = "loginTestCSVDataProvider")
+public void loginCSVTest(User user) {
+    //Read Data from CSV file
+   *//* homePage.goToLoginPage()
+            .doLoginWith(user.getEmailAddress(), user.getPassword())
+            .getUserName();*//*
+    assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName(), "Test App");
+    }*/
 
    /* @Test(description = "Verify valid user is login into the application", groups = {"regression", "sanity"},
             dataProviderClass = com.ui.dataprovider.LoginDataProvider.class, dataProvider = "loginTestExcelDataProvider",
@@ -51,4 +53,13 @@ public class LoginTest extends TestBase{
         assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName(), "Test App");
         }*/
 
+    @Test(description = "Verify if the proper error message is shown for the invalid user", groups = {"regression", "sanity"})
+    public void loginTest() {
+        //Read Data from CSV file
+       /* homePage.goToLoginPage()
+                .doLoginWith(user.getEmailAddress(), user.getPassword())
+                .getUserName();*/
+        assertEquals(homePage.goToLoginPage().doLoginWithInvalidCredentials(INVALID_EMAIL_ADDRESS,INVALID_EMAIL_PASSWORD)
+                .getErrorMessage(),"Invalid password.");
+    }
 }

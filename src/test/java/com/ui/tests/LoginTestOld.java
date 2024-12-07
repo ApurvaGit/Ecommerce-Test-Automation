@@ -2,7 +2,7 @@ package com.ui.tests;
 
 import com.constants.Browser;
 import com.ui.pages.HomePage;
-import com.ui.pages.LogInPage;
+import com.ui.pages.LoginPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
