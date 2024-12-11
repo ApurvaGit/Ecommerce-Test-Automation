@@ -5,6 +5,7 @@ import com.ui.pojo.User;
 import com.utility.LoggerUtility;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.*;
+import org.testng.annotations.Listeners;
 
 import static com.constants.Browser.CHROME;
 import static org.testng.Assert.assertEquals;

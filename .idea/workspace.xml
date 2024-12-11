@@ -4,15 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="954858bf-95ba-487d-8e58-2ea69ce5de18" name="Changes" comment="Created v1.0 automation framework&#10;parameterize test, can execute from mvn cmd">
+    <list default="true" id="954858bf-95ba-487d-8e58-2ea69ce5de18" name="Changes" comment="Added Invalid credential login test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/constants/DressSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ui/pages/AddressPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ui/pages/ConfirmAddressPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ui/pages/PaymentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ui/pages/ProductDetailPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ui/pages/SearchResultPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ui/pages/ShipmentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ui/pages/ShoppingCartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ui/pojo/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ui/tests/AddAddressPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ui/tests/ProductCheckoutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ui/tests/ProductSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/utility/FakeAddressUtility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/pages/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/pages/MyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/pages/MyAccountPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/tests/LoginTestOld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/tests/LoginTestOld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ui/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ui/tests/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/utility/BrowserUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utility/BrowserUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/utility/JSONUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utility/JSONUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/utility/PropertiesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utility/PropertiesUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,10 +95,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "TestNG.AddAddressPageTest.addNewAddress.executor": "Run",
+    "TestNG.AddAddressPageTest.executor": "Run",
     "TestNG.C:/Workspace/Apurva/Learning Java/automate_ecommerce/testng.xml.executor": "Run",
     "TestNG.LoginTest (1).executor": "Run",
     "TestNG.LoginTest (2).executor": "Run",
-    "TestNG.LoginTest.executor": "Debug",
+    "TestNG.LoginTest.executor": "Run",
     "TestNG.LoginTest.loginCSVTest.executor": "Run",
     "TestNG.LoginTest.loginExcelTest.executor": "Debug",
     "TestNG.LoginTest.loginTest (1).executor": "Debug",
@@ -95,9 +110,14 @@
     "TestNG.LoginTestUsingCSV.executor": "Run",
     "TestNG.LoginTestUsingCSV.loginCSVTest.executor": "Run",
     "TestNG.LoginTestUsingCSV.loginExcelTest.executor": "Run",
+    "TestNG.ProductCheckoutTest.checjoutTest.executor": "Run",
+    "TestNG.ProductCheckoutTest.checkoutTest.executor": "Run",
+    "TestNG.ProductCheckoutTest.executor": "Run",
+    "TestNG.ProductSearchTest.executor": "Run",
+    "TestNG.ProductSearchTest.verifyProductSearchTest.executor": "Debug",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Workspace/Apurva/Learning Java/RestAssured/.gitignore",
+    "last_opened_file_path": "C:/Workspace/Apurva/Learning Java/Java Practice",
     "onboarding.tips.debug.path": "C:/Workspace/Apurva/Learning Java/automate_ecommerce/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -108,8 +128,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.ui.tests" />
       <recent name="com.ui.pages" />
+      <recent name="com.ui.tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Workspace\Apurva\Learning Java\automate_ecommerce\src\utility" />
@@ -126,11 +146,18 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.loginTest">
-    <configuration name="C:/Workspace/Apurva/Learning Java/automate_ecommerce/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AddAddressPageTest">
+    <configuration name="AddAddressPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automate_ecommerce" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ui.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ui.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.ui.tests.AddAddressPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -154,7 +181,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTestUsingCSV.loginCSVTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductCheckoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automate_ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -163,8 +190,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ui.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.ui.tests.LoginTestUsingCSV" />
-      <option name="METHOD_NAME" value="loginCSVTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ui.tests.ProductCheckoutTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductCheckoutTest.checkoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automate_ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ui.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ui.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.ui.tests.ProductCheckoutTest" />
+      <option name="METHOD_NAME" value="checkoutTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -172,7 +216,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.loginCSVTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automate_ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -181,27 +225,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ui.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.ui.tests.LoginTest" />
-      <option name="METHOD_NAME" value="loginCSVTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automate_ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ui.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ui.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.ui.tests.LoginTest" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.ui.tests.ProductSearchTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -209,19 +234,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.LoginTest.loginTest" />
-      <item itemvalue="TestNG.C:/Workspace/Apurva/Learning Java/automate_ecommerce/testng.xml" />
+      <item itemvalue="TestNG.AddAddressPageTest" />
       <item itemvalue="TestNG.LoginTest" />
-      <item itemvalue="TestNG.LoginTest.loginCSVTest" />
-      <item itemvalue="TestNG.LoginTestUsingCSV.loginCSVTest" />
+      <item itemvalue="TestNG.ProductCheckoutTest" />
+      <item itemvalue="TestNG.ProductCheckoutTest.checkoutTest" />
+      <item itemvalue="TestNG.ProductSearchTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest.loginTest" />
-        <item itemvalue="TestNG.LoginTest.loginCSVTest" />
-        <item itemvalue="TestNG.C:/Workspace/Apurva/Learning Java/automate_ecommerce/testng.xml" />
-        <item itemvalue="TestNG.LoginTestUsingCSV.loginCSVTest" />
+        <item itemvalue="TestNG.AddAddressPageTest" />
+        <item itemvalue="TestNG.ProductSearchTest" />
+        <item itemvalue="TestNG.ProductCheckoutTest" />
         <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.ProductCheckoutTest.checkoutTest" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733441683768</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Invalid credential login test">
+      <option name="closed" value="true" />
+      <created>1733610803651</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733610803651</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -286,54 +319,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created v1.0 automation framework&#10;parameterize test, can execute from mvn cmd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created v1.0 automation framework&#10;parameterize test, can execute from mvn cmd" />
+    <MESSAGE value="Added Invalid credential login test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Invalid credential login test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/utility/BrowserUtility.java</url>
-          <line>93</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/ui/pages/LoginPage.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/ui/pages/HomePage.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/ui/pages/HomePage.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/ui/pages/MyAccountPage.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/ui/pages/HomePage.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/ui/pojo/User.java</url>
           <line>12</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/com/ui/pages/HomePage.java</url>
-          <line>19</line>
-          <properties class="com.ui.pages.HomePage" method="&lt;init&gt;">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="12" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/ui/pages/SearchResultPage.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/utility/BrowserUtility.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/ui/tests/LoginTestUsingCSV.java</url>
